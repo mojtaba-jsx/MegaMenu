@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -83,7 +83,7 @@
           />
         </g>
       </symbol>
-      
+
       <symbol
         id="discount-shape"
         width="24"
@@ -282,7 +282,6 @@
       </symbol>
 
       <symbol
-
         id="skirt"
         width="32"
         height="32"
@@ -409,14 +408,65 @@
           fill="white"
         />
       </symbol>
-
     </svg>
 
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__right">
+            <img
+              src="./images/Logo.png"
+              alt="logo"
+              class="header__right-logo"
+            />
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#" class="menu-link"> صفحه اصلی </a>
+              </li>
 
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  محصولات
+                  <svg class="menu-icon"><use href="#arrow-down"></use></svg>
+                </a>
+              </li>
 
+              <li class="menu-item">
+                <a href="#" class="menu-link"> بلاگ </a>
+              </li>
 
+              <li class="menu-item">
+                <a href="#" class="menu-link"> درباره ما </a>
+              </li>
 
-    
+              <li class="menu-item">
+                <a href="#" class="menu-link"> تماس با ما </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__left">
+            <div class="header__item">
+              <svg class="header__item-icon">
+                <use href="#search-normal"></use>
+              </svg>
+            </div>
+
+            <div class="header__item">
+              <svg class="header__item-icon">
+                <use href="#shopping-bag"></use>
+              </svg>
+              <span class="header__item-badge">2</span>
+            </div>
+
+            <a href="#" class="header__login">
+                <svg class="header__login-icon"><use href="#user"></use></svg>
+                ورود| عضویت
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <script src="./script.js"></script>
   </body>
